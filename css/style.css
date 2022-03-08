@@ -1,0 +1,66 @@
+@font-face {
+    font-family: amiri;
+    src: url(/font/Amiri-Regular.ttf);
+}
+
+body
+{
+    font-family: amiri;
+    padding: 20px;
+    direction: rtl;
+    min-height: 100vh;
+    max-width: 600px;
+    margin: auto;
+    font-size: 20px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+.center {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+/* Adding captions to images */
+a + em {
+    display: inherit;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: black;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 1px 12px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  /* Add a color to the active/current link */
+.topnav a.active {
+    background-color: ghostwhite;
+    color: black;
+  }
